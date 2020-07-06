@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4D9F8">
+
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="328dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="339dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="102dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kai08mz"
+                android:gravity="center"
+                android:text="帳號："
+                android:textColor="#050404"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="256dp"
+                android:layout_height="33dp"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textPassword" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kai08mz"
+                android:gravity="center"
+                android:text="密碼："
+                android:textColor="#050505"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="251dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textPassword" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip"
+                android:layout_width="136dp"
+                android:layout_height="match_parent"
+
+                android:fontFamily="@font/kai08mz"
+                android:gravity="center"
+                android:text="記住帳號" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/kai08mz"
+                android:gravity="center"
+                android:text="註冊帳號" />
+
+
+            <TextView
+                android:id="@+id/one_textView02"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/kai08mz"
+                android:gravity="center"
+                android:text="忘記密碼？" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/mood2_next_button"
+            android:layout_width="113dp"
+            android:layout_height="70dp"
+            android:fontFamily="@font/kai08mz"
+            android:text="確定" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="680dp"
+        android:layout_height="270dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/i_"
+        tools:layout_editor_absoluteY="41dp"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

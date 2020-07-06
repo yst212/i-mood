@@ -1,0 +1,55 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\kaoas\Documents\WeChat Files\debbie082130\FileStorage\File\2020-05\MyApplication2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\kaoas\Documents\WeChat Files\debbie082130\FileStorage\File\2020-05\MyApplication2\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\kaoas\Documents\WeChat Files\debbie082130\FileStorage\File\2020-05\MyApplication2\app\src\main\AndroidManifest.xml:5:5-23:19
+12        android:allowBackup="true"
+12-->C:\Users\kaoas\Documents\WeChat Files\debbie082130\FileStorage\File\2020-05\MyApplication2\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\kaoas\.gradle\caches\transforms-2\files-2.1\c2773a24582d849dd12d36cc81372f6b\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:icon="@mipmap/i_new"
+14-->C:\Users\kaoas\Documents\WeChat Files\debbie082130\FileStorage\File\2020-05\MyApplication2\app\src\main\AndroidManifest.xml:7:9-37
+15        android:label="i好心情"
+15-->C:\Users\kaoas\Documents\WeChat Files\debbie082130\FileStorage\File\2020-05\MyApplication2\app\src\main\AndroidManifest.xml:8:9-29
+16        android:roundIcon="@mipmap/i_new"
+16-->C:\Users\kaoas\Documents\WeChat Files\debbie082130\FileStorage\File\2020-05\MyApplication2\app\src\main\AndroidManifest.xml:9:9-42
+17        android:supportsRtl="true"
+17-->C:\Users\kaoas\Documents\WeChat Files\debbie082130\FileStorage\File\2020-05\MyApplication2\app\src\main\AndroidManifest.xml:10:9-35
+18        android:theme="@style/AppTheme" >
+18-->C:\Users\kaoas\Documents\WeChat Files\debbie082130\FileStorage\File\2020-05\MyApplication2\app\src\main\AndroidManifest.xml:11:9-40
+19        <activity android:name="com.example.myapplication.SplashActivity" >
+19-->C:\Users\kaoas\Documents\WeChat Files\debbie082130\FileStorage\File\2020-05\MyApplication2\app\src\main\AndroidManifest.xml:12:9-18:20
+19-->C:\Users\kaoas\Documents\WeChat Files\debbie082130\FileStorage\File\2020-05\MyApplication2\app\src\main\AndroidManifest.xml:12:19-49
+20            <intent-filter>
+20-->C:\Users\kaoas\Documents\WeChat Files\debbie082130\FileStorage\File\2020-05\MyApplication2\app\src\main\AndroidManifest.xml:13:13-17:29
+21                <action android:name="android.intent.action.MAIN" />
+21-->C:\Users\kaoas\Documents\WeChat Files\debbie082130\FileStorage\File\2020-05\MyApplication2\app\src\main\AndroidManifest.xml:14:17-69
+21-->C:\Users\kaoas\Documents\WeChat Files\debbie082130\FileStorage\File\2020-05\MyApplication2\app\src\main\AndroidManifest.xml:14:25-66
+22
+23                <category android:name="android.intent.category.LAUNCHER" />
+23-->C:\Users\kaoas\Documents\WeChat Files\debbie082130\FileStorage\File\2020-05\MyApplication2\app\src\main\AndroidManifest.xml:16:17-77
+23-->C:\Users\kaoas\Documents\WeChat Files\debbie082130\FileStorage\File\2020-05\MyApplication2\app\src\main\AndroidManifest.xml:16:27-74
+24            </intent-filter>
+25        </activity>
+26        <activity android:name="com.example.myapplication.MainActivity" />
+26-->C:\Users\kaoas\Documents\WeChat Files\debbie082130\FileStorage\File\2020-05\MyApplication2\app\src\main\AndroidManifest.xml:19:9-59
+26-->C:\Users\kaoas\Documents\WeChat Files\debbie082130\FileStorage\File\2020-05\MyApplication2\app\src\main\AndroidManifest.xml:19:19-47
+27
+28        <meta-data
+28-->C:\Users\kaoas\Documents\WeChat Files\debbie082130\FileStorage\File\2020-05\MyApplication2\app\src\main\AndroidManifest.xml:20:9-22:57
+29            android:name="preloaded_fonts"
+29-->C:\Users\kaoas\Documents\WeChat Files\debbie082130\FileStorage\File\2020-05\MyApplication2\app\src\main\AndroidManifest.xml:21:13-43
+30            android:resource="@array/preloaded_fonts" />
+30-->C:\Users\kaoas\Documents\WeChat Files\debbie082130\FileStorage\File\2020-05\MyApplication2\app\src\main\AndroidManifest.xml:22:13-54
+31    </application>
+32
+33</manifest>
