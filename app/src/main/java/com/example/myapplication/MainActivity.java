@@ -170,7 +170,8 @@ public class MainActivity extends Activity
         setContentView(R.layout.mood1);
         Button button01 = findViewById(R.id.mood1_next_button);
         TextView title = findViewById(R.id.textView10);
-        title.setText("三、心情溫度計");
+        title.setText("三、心情溫度計" +
+                "");
 
         mRadioButton1 = (RadioButton) findViewById(R.id.one_buttom01);
         mRadioButton2 = (RadioButton) findViewById(R.id.one_buttom02);

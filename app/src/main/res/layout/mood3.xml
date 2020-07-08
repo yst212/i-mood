@@ -18,11 +18,12 @@
         <TextView
             android:id="@+id/textView10"
             android:layout_width="match_parent"
-            android:layout_height="107dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
             android:fontFamily="@font/kai08mz"
             android:text="四、很厲害喔!能夠說出自己的心情，請你想一想怎樣可以讓你心情更好呢?"
-            android:textColor="#050505"
-            android:textSize="22sp"
+            android:textColor="#040404"
+            android:textSize="30sp"
             android:typeface="normal" />
 
         <LinearLayout
@@ -36,16 +37,18 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/kai08mz"
                 android:text="TextView"
-                android:textSize="18sp" />
+                android:textColor="#040404"
+                android:textSize="24sp" />
         </LinearLayout>
 
         <Button
             android:id="@+id/mood3_next_button"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
             android:fontFamily="@font/kai08mz"
-            android:text="加油喔，只剩最後一步了"
+            android:text="加油，只剩最後一步了"
+            android:textColor="#040404"
             android:textSize="20sp" />
     </LinearLayout>
 

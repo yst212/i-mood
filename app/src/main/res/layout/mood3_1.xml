@@ -21,13 +21,13 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/kai08mz"
             android:text="四、很厲害喔!能夠說出自己的心情，請你想一想怎樣可以讓你心情更好呢?"
-            android:textColor="#050505"
-            android:textSize="22sp"
+            android:textColor="#040404"
+            android:textSize="30sp"
             android:typeface="normal" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <RadioButton
@@ -36,13 +36,14 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/kai08mz"
                 android:text="遇到別人讓我很生氣，我會告訴自己不要理他們就好了"
+                android:textColor="#040404"
                 android:textSize="20sp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="65dp"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <RadioButton
@@ -51,12 +52,13 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/kai08mz"
                 android:text="不快樂的時候，我會去想自己想做的事情，讓自己心情好一點"
+                android:textColor="#040404"
                 android:textSize="20sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <RadioButton
@@ -65,12 +67,13 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/kai08mz"
                 android:text="我會去想以前快樂事情，讓自己的心情好一點"
+                android:textColor="#040404"
                 android:textSize="20sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <RadioButton
@@ -79,12 +82,13 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/kai08mz"
                 android:text="我會自己找一個安靜的地方，自己一個人安靜地玩"
+                android:textColor="#040404"
                 android:textSize="20sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <RadioButton
@@ -93,12 +97,13 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/kai08mz"
                 android:text="和別人發生爭執，會與對方討論解決問題"
+                android:textColor="#040404"
                 android:textSize="20sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <RadioButton
@@ -108,12 +113,13 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/kai08mz"
                 android:text="不開心的時候，我會去看故事書，忘掉不開心的事情"
+                android:textColor="#040404"
                 android:textSize="20sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <RadioButton
@@ -123,12 +129,13 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/kai08mz"
                 android:text="我會摔東西或玩具讓自己心情好一點"
+                android:textColor="#040404"
                 android:textSize="20sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <RadioButton
@@ -138,12 +145,13 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/kai08mz"
                 android:text="我會去打同學讓自己感覺舒服一點"
+                android:textColor="#040404"
                 android:textSize="20sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <RadioButton
@@ -153,6 +161,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/kai08mz"
                 android:text="我會去找老師或爸爸、媽媽安慰我"
+                android:textColor="#040404"
                 android:textSize="20sp" />
         </LinearLayout>
 
@@ -168,16 +177,18 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/kai08mz"
                 android:text="我會大聲哭很久"
+                android:textColor="#040404"
                 android:textSize="20sp" />
         </LinearLayout>
 
         <Button
             android:id="@+id/mood3_1_next_button"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="10dp"
             android:fontFamily="@font/kai08mz"
-            android:text="加油喔，只剩最後一步了"
+            android:text="加油，只剩最後一步了"
+            android:textColor="#040404"
             android:textSize="20sp" />
     </LinearLayout>
 
