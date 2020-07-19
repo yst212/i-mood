@@ -1,10 +1,13 @@
 package com.example.myapplication;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.app.Activity;
+import android.widget.CheckBox;
+import android.widget.ImageButton;
 import android.widget.RadioButton;
 import android.content.Intent;
 import android.widget.TextView;
@@ -15,6 +18,7 @@ public class MainActivity extends Activity
 {
 
     private RadioButton radioButton;
+    private ImageButton imageButton;
     private Boolean f_jumptolayout03 = false;
     private Integer layout_choice = 0;
     private RadioButton mRadioButton1,
@@ -24,13 +28,6 @@ public class MainActivity extends Activity
             mRadioButton5,
             mRadioButton6,
             mRadioButton7,
-            mRadioButton21,
-            mRadioButton22,
-            mRadioButton23,
-            mRadioButton24,
-            mRadioButton25,
-            mRadioButton26,
-            mRadioButton27,
             mRadioButton31,
             mRadioButton32,
             mRadioButton33,
@@ -50,11 +47,22 @@ public class MainActivity extends Activity
             mRadioButton47;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+        TextView textview = findViewById(R.id.textView34);
+
+        textview.setOnClickListener(new Button.OnClickListener(){
+            public void onClick(View v){
+                jumpTomood();
+            }
+        });
+    }
+
+    private void jumpTomood(){
+        //super.onCreate(savedInstanceState);
         setContentView(R.layout.mood1);
 
         Button button01 = findViewById(R.id.mood1_next_button);
@@ -62,7 +70,6 @@ public class MainActivity extends Activity
         button01.setOnClickListener(new Button.OnClickListener(){
             public void onClick(View v){
                 jumpToLayout02();
-
             }
         });
 
@@ -170,8 +177,7 @@ public class MainActivity extends Activity
         setContentView(R.layout.mood1);
         Button button01 = findViewById(R.id.mood1_next_button);
         TextView title = findViewById(R.id.textView10);
-        title.setText("三、心情溫度計" +
-                "");
+        title.setText("三、心情溫度計" + "");
 
         mRadioButton1 = (RadioButton) findViewById(R.id.one_buttom01);
         mRadioButton2 = (RadioButton) findViewById(R.id.one_buttom02);
@@ -274,122 +280,177 @@ public class MainActivity extends Activity
 
         button01.setOnClickListener(new Button.OnClickListener(){
             public void onClick(View v){
-                System.out.println(f_jumptolayout03);
-                if(f_jumptolayout03){
-                    jumpToLayout03();}
+                if(layout_choice==5 | layout_choice==6 |
+                        layout_choice==7)
+                    jumpToLayout03_1();
+                else if(layout_choice==1 | layout_choice==2 |
+                        layout_choice==3 | layout_choice==4)
+                    jumpToLayout03();
             }
+
         });
     }
 
+    @SuppressLint("WrongViewCast")
     private void jumpToLayout02() {
         setContentView(R.layout.mood2);
-        Button button02 = findViewById(R.id.mood2_next_button);
-        button02.setOnClickListener(new Button.OnClickListener(){
+//        Button button02 = findViewById(R.id.mood2_next_button);
+//        button02.setOnClickListener(new Button.OnClickListener(){
+//            public void onClick(View v){
+//                f_jumptolayout03 = true;
+//                jumpToLayout01();
+//            }
+//        });
+
+        ImageButton mImageButton21 = (ImageButton) findViewById(R.id.two_imageButton01);
+        ImageButton mImageButton22 = (ImageButton) findViewById(R.id.two_imageButton02);
+        ImageButton mImageButton23 = (ImageButton) findViewById(R.id.two_imageButton03);
+        ImageButton mImageButton24 = (ImageButton) findViewById(R.id.two_imageButton04);
+        ImageButton mImageButton25 = (ImageButton) findViewById(R.id.two_imageButton05);
+        ImageButton mImageButton26 = (ImageButton) findViewById(R.id.two_imageButton06);
+        ImageButton mImageButton27 = (ImageButton) findViewById(R.id.two_imageButton07);
+
+        mImageButton21.setOnClickListener(new RadioButton.OnClickListener() {
+            public void onClick(View v) {
+                jumpToLayout02_mad();
+            }
+        });
+
+        mImageButton22.setOnClickListener(new RadioButton.OnClickListener() {
+            public void onClick(View v) {
+                jumpToLayout02_angry();
+            }
+        });
+
+        mImageButton23.setOnClickListener(new RadioButton.OnClickListener() {
+            public void onClick(View v) {
+                jumpToLayout02_unhappy();
+            }
+        });
+
+        mImageButton24.setOnClickListener(new RadioButton.OnClickListener() {
+            public void onClick(View v) {
+                jumpToLayout02_calm();
+            }
+        });
+
+        mImageButton25.setOnClickListener(new RadioButton.OnClickListener() {
+            public void onClick(View v) {
+                jumpToLayout02_happy();
+            }
+        });
+
+        mImageButton26.setOnClickListener(new RadioButton.OnClickListener() {
+            public void onClick(View v) {
+                jumpToLayout02_excited();
+            }
+        });
+
+        mImageButton27.setOnClickListener(new RadioButton.OnClickListener() {
+            public void onClick(View v) {
+                jumpToLayout02_veryhappy();
+            }
+        });
+
+    }
+
+    private void jumpToLayout02_mad(){
+        setContentView(R.layout.mood2_mad);
+        final CheckBox is_correct = (CheckBox) findViewById(R.id.checkBox4);
+        Button button = findViewById(R.id.button15);
+        button.setOnClickListener(new Button.OnClickListener(){
             public void onClick(View v){
-                f_jumptolayout03 = true;
-                jumpToLayout01();
+                if(is_correct.isChecked())
+                    jumpToLayout01();
+                else
+                    jumpToLayout02();
             }
         });
-
-        mRadioButton21 = (RadioButton) findViewById(R.id.two_button01);
-        mRadioButton22 = (RadioButton) findViewById(R.id.two_button02);
-        mRadioButton23 = (RadioButton) findViewById(R.id.two_button03);
-        mRadioButton24 = (RadioButton) findViewById(R.id.two_button04);
-        mRadioButton25 = (RadioButton) findViewById(R.id.two_button05);
-        mRadioButton26 = (RadioButton) findViewById(R.id.two_button06);
-        mRadioButton27 = (RadioButton) findViewById(R.id.two_button07);
-
-        mRadioButton21.setOnClickListener(new RadioButton.OnClickListener() {
-            public void onClick(View v) {
-                mRadioButton21.setChecked(true);
-                mRadioButton22.setChecked(false);
-                mRadioButton23.setChecked(false);
-                mRadioButton24.setChecked(false);
-                mRadioButton25.setChecked(false);
-                mRadioButton26.setChecked(false);
-                mRadioButton27.setChecked(false);
+    }
+    private void jumpToLayout02_angry(){
+        setContentView(R.layout.mood2_angry);
+        final CheckBox is_correct = (CheckBox) findViewById(R.id.checkBox6);
+        Button button = findViewById(R.id.button17);
+        button.setOnClickListener(new Button.OnClickListener(){
+            public void onClick(View v){
+                if(is_correct.isChecked())
+                    jumpToLayout01();
+                else
+                    jumpToLayout02();
             }
         });
-
-        mRadioButton22.setOnClickListener(new RadioButton.OnClickListener() {
-            public void onClick(View v) {
-                mRadioButton21.setChecked(false);
-                mRadioButton22.setChecked(true);
-                mRadioButton23.setChecked(false);
-                mRadioButton24.setChecked(false);
-                mRadioButton25.setChecked(false);
-                mRadioButton26.setChecked(false);
-                mRadioButton27.setChecked(false);
+    }
+    private void jumpToLayout02_unhappy(){
+        setContentView(R.layout.mood2_unhappy);
+        final CheckBox is_correct = (CheckBox) findViewById(R.id.checkBox5);
+        Button button = findViewById(R.id.button16);
+        button.setOnClickListener(new Button.OnClickListener(){
+            public void onClick(View v){
+                if(is_correct.isChecked())
+                    jumpToLayout01();
+                else
+                    jumpToLayout02();
             }
         });
-
-        mRadioButton23.setOnClickListener(new RadioButton.OnClickListener() {
-            public void onClick(View v) {
-                mRadioButton21.setChecked(false);
-                mRadioButton22.setChecked(false);
-                mRadioButton23.setChecked(true);
-                mRadioButton24.setChecked(false);
-                mRadioButton25.setChecked(false);
-                mRadioButton26.setChecked(false);
-                mRadioButton27.setChecked(false);
+    }
+    private void jumpToLayout02_calm(){
+        setContentView(R.layout.mood2_calm);
+        final CheckBox is_correct = (CheckBox) findViewById(R.id.checkBox7);
+        Button button = findViewById(R.id.button18);
+        button.setOnClickListener(new Button.OnClickListener(){
+            public void onClick(View v){
+                if(is_correct.isChecked())
+                    jumpToLayout01();
+                else
+                    jumpToLayout02();
             }
         });
-
-        mRadioButton24.setOnClickListener(new RadioButton.OnClickListener() {
-            public void onClick(View v) {
-                mRadioButton21.setChecked(false);
-                mRadioButton22.setChecked(false);
-                mRadioButton23.setChecked(false);
-                mRadioButton24.setChecked(true);
-                mRadioButton25.setChecked(false);
-                mRadioButton26.setChecked(false);
-                mRadioButton27.setChecked(false);
+    }
+    private void jumpToLayout02_happy(){
+        setContentView(R.layout.mood2_happy);
+        final CheckBox is_correct = (CheckBox) findViewById(R.id.checkBox);
+        Button button = findViewById(R.id.button12);
+        button.setOnClickListener(new Button.OnClickListener(){
+            public void onClick(View v){
+                if(is_correct.isChecked())
+                    jumpToLayout01();
+                else
+                    jumpToLayout02();
             }
         });
-
-        mRadioButton25.setOnClickListener(new RadioButton.OnClickListener() {
-            public void onClick(View v) {
-                mRadioButton21.setChecked(false);
-                mRadioButton22.setChecked(false);
-                mRadioButton23.setChecked(false);
-                mRadioButton24.setChecked(false);
-                mRadioButton25.setChecked(true);
-                mRadioButton26.setChecked(false);
-                mRadioButton27.setChecked(false);
+    }
+    private void jumpToLayout02_excited(){
+        setContentView(R.layout.mood2_excited);
+        final CheckBox is_correct = (CheckBox) findViewById(R.id.checkBox3);
+        Button button = findViewById(R.id.button14);
+        button.setOnClickListener(new Button.OnClickListener(){
+            public void onClick(View v){
+                if(is_correct.isChecked())
+                    jumpToLayout01();
+                else
+                    jumpToLayout02();
             }
         });
-
-        mRadioButton26.setOnClickListener(new RadioButton.OnClickListener() {
-            public void onClick(View v) {
-                mRadioButton21.setChecked(false);
-                mRadioButton22.setChecked(false);
-                mRadioButton23.setChecked(false);
-                mRadioButton24.setChecked(false);
-                mRadioButton25.setChecked(false);
-                mRadioButton26.setChecked(true);
-                mRadioButton27.setChecked(false);
+    }
+    private void jumpToLayout02_veryhappy(){
+        setContentView(R.layout.mood2_veryhappy);
+        final CheckBox is_correct = (CheckBox) findViewById(R.id.checkBox2);
+        Button button = findViewById(R.id.button13);
+        button.setOnClickListener(new Button.OnClickListener(){
+            public void onClick(View v){
+                if(is_correct.isChecked())
+                    jumpToLayout01();
+                else
+                    jumpToLayout02();
             }
         });
-
-        mRadioButton27.setOnClickListener(new RadioButton.OnClickListener() {
-            public void onClick(View v) {
-                mRadioButton21.setChecked(false);
-                mRadioButton22.setChecked(false);
-                mRadioButton23.setChecked(false);
-                mRadioButton24.setChecked(false);
-                mRadioButton25.setChecked(false);
-                mRadioButton26.setChecked(false);
-                mRadioButton27.setChecked(true);
-            }
-        });
-
     }
 
     private void jumpToLayout03_1() {
         setContentView(R.layout.mood3_1);
         Button button03 = findViewById(R.id.mood3_1_next_button);
-        button03.setOnClickListener(new Button.OnClickListener(){
-            public void onClick(View v){
+        button03.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
                 jumpToLayout04();
             }
         });
@@ -563,7 +624,7 @@ public class MainActivity extends Activity
         Button button03 = findViewById(R.id.mood3_next_button);
         TextView text_view = findViewById(R.id.textView40);
 
-        switch (layout_choice){
+        switch (layout_choice) {
             case 1:
                 text_view.setText("我非常開心，已經開心到頂點了，我會和朋友分享，記住這件開心的事情。");
                 break;
@@ -630,8 +691,8 @@ public class MainActivity extends Activity
     private void jumpToLayout04() {
         setContentView(R.layout.mood4);
         Button button04 = findViewById(R.id.mood4_next_button);
-        button04.setOnClickListener(new Button.OnClickListener(){
-            public void onClick(View v){
+        button04.setOnClickListener(new Button.OnClickListener() {
+            public void onClick(View v) {
                 System.exit(0);
             }
         });
@@ -729,4 +790,5 @@ public class MainActivity extends Activity
         });
 
     }
-}
+
+    }

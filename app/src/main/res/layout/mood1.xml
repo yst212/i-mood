@@ -5,11 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F4D9F8"
-    tools:context="wf.com.radiobuttondemo.MainActivity">
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="center"
         android:orientation="vertical">
 
         <TextView
@@ -17,11 +18,12 @@
             style="@android:style/Widget.TextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
             android:fontFamily="@font/kai08mz"
             android:text="一、心情溫度計"
-            android:textColor="#040404"
+            android:textColor="#000000"
             android:textColorHint="#FFFFFF"
-            android:textSize="30sp"
+            android:textSize="36sp"
             android:typeface="sans" />
 
         <LinearLayout
@@ -30,136 +32,159 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/one_textView02"
+                android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/kai08mz"
-                android:text="請從0到10說說你現在的心情，                                                                                                     1是心情非常快樂，"
-                android:textColor="#040404"
-                android:textSize="24sp" />
-
+                android:text="請從0到10說說你現在的心情，                                                                                                     7是心情非常快樂，"
+                android:textColor="#000000"
+                android:textSize="30sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView16"
+                android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="@font/kai08mz"
-                android:text="7是心情非常不快樂"
-                android:textColor="#040404"
+                android:text="1是心情非常不快樂"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/one_buttom01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/kai08mz"
+                android:text="1 怒氣沖沖失去理智"
+                android:textColor="#000000"
                 android:textSize="24sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
             android:orientation="horizontal">
 
             <RadioButton
-                android:id="@+id/one_buttom01"
-                android:layout_width="wrap_content"
-                android:layout_height="36dp"
-                android:layout_marginRight="20dp"
-                android:fontFamily="@font/kai08mz"
-                android:text="1 非常快樂"
-                android:textColor="#040404"
-                android:textSize="20sp" />
-
-            <RadioButton
                 android:id="@+id/one_buttom02"
-                android:layout_width="wrap_content"
-                android:layout_height="36dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
                 android:fontFamily="@font/kai08mz"
-                android:text="2 興奮"
-                android:textColor="#040404"
-                android:textSize="20sp" />
+                android:text="2 憤怒發脾氣"
+                android:textSize="24sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
             android:orientation="horizontal">
 
             <RadioButton
                 android:id="@+id/one_buttom03"
-                android:layout_width="wrap_content"
-                android:layout_height="36dp"
-                android:layout_marginRight="80dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
                 android:fontFamily="@font/kai08mz"
-                android:text="3 開心"
-                android:textColor="#040404"
-                android:textSize="20sp" />
-
-            <RadioButton
-                android:id="@+id/one_buttom04"
-                android:layout_width="wrap_content"
-                android:layout_height="36dp"
-                android:fontFamily="@font/kai08mz"
-                android:text="4 平靜"
-                android:textColor="#040404"
-                android:textSize="20sp" />
+                android:text="3 不高興"
+                android:textSize="24sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/one_buttom04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:fontFamily="@font/kai08mz"
+                android:text="4 平靜"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
             android:orientation="horizontal">
 
             <RadioButton
                 android:id="@+id/one_buttom05"
-                android:layout_width="wrap_content"
-                android:layout_height="36dp"
-                android:layout_marginRight="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
                 android:fontFamily="@font/kai08mz"
-                android:text="5 不高興"
-                android:textColor="#040404"
-                android:textSize="20sp" />
-
-            <RadioButton
-                android:id="@+id/one_buttom06"
-                android:layout_width="wrap_content"
-                android:layout_height="36dp"
-                android:fontFamily="@font/kai08mz"
-                android:text="6 憤怒發脾氣"
-                android:textColor="#040404"
-                android:textSize="20sp" />
+                android:text="5 開心"
+                android:textSize="24sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/one_buttom06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:fontFamily="@font/kai08mz"
+                android:text="6 興奮"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
             android:orientation="horizontal">
 
             <RadioButton
                 android:id="@+id/one_buttom07"
-                android:layout_width="wrap_content"
-                android:layout_height="36dp"
-                android:layout_marginLeft="70dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
                 android:fontFamily="@font/kai08mz"
-                android:text="7 怒氣沖沖失去理智"
-                android:textColor="#040404"
-                android:textSize="20sp" />
+                android:text="7 非常快樂"
+                android:textSize="24sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginBottom="0dp"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/mood1_next_button"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/kai08mz"
                 android:text="確定，下一步"
-                android:textColor="#040404"
-                android:textSize="20sp" />
+                android:textSize="30sp" />
         </LinearLayout>
 
     </LinearLayout>

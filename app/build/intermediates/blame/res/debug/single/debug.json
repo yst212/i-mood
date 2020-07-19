@@ -1,19 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_happy.jpg.flat",
-        "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\drawable\\happy.jpg"
-    },
-    {
         "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_a9789867020420__74779_1500175664.jpg.flat",
         "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\drawable\\a9789867020420__74779_1500175664.jpg"
     },
     {
         "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\font_kai08mz.TTC.flat",
         "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\font\\kai08mz.TTC"
-    },
-    {
-        "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\layout_profile.xml.flat",
-        "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\layout\\profile.xml"
     },
     {
         "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\layout_mood3.xml.flat",
@@ -32,14 +24,6 @@
         "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_angry.jpg.flat",
-        "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\drawable\\angry.jpg"
-    },
-    {
-        "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\layout_calender_mood.xml.flat",
-        "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\layout\\calender_mood.xml"
-    },
-    {
         "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
@@ -52,28 +36,28 @@
         "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\drawable\\setting.png"
     },
     {
-        "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\layout_game_place.xml.flat",
-        "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\layout\\game_place.xml"
     },
     {
         "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_smile.jpg.flat",
         "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\drawable\\smile.jpg"
     },
     {
+        "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_i_.jpg.flat",
+        "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\drawable\\i_.jpg"
+    },
+    {
         "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_very_happy.png.flat",
         "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\drawable\\very_happy.png"
     },
     {
-        "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_i_.jpg.flat",
-        "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\drawable\\i_.jpg"
+        "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\layout_mood2_happy.xml.flat",
+        "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\layout\\mood2_happy.xml"
+    },
+    {
+        "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\layout\\main.xml"
     },
     {
         "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
@@ -96,6 +80,10 @@
         "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\drawable\\b2007010015558.jpg"
     },
     {
+        "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_previous.png.flat",
+        "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\drawable\\previous.png"
+    },
+    {
         "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
@@ -106,6 +94,10 @@
     {
         "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\layout_launch_screen.xml.flat",
         "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\layout\\launch_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\layout_mood2_angry.xml.flat",
+        "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\layout\\mood2_angry.xml"
     },
     {
         "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\layout-keysexposed_login.xml.flat",
@@ -132,6 +124,10 @@
         "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
     },
     {
+        "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_calm.png.flat",
+        "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\drawable\\calm.png"
+    },
+    {
         "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_soso.jpg.flat",
         "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\drawable\\soso.jpg"
     },
@@ -142,6 +138,14 @@
     {
         "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_angry01.png.flat",
         "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\drawable\\angry01.png"
+    },
+    {
+        "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\layout_mood2_veryhappy.xml.flat",
+        "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\layout\\mood2_veryhappy.xml"
+    },
+    {
+        "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\layout_mood2_mad.xml.flat",
+        "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\layout\\mood2_mad.xml"
     },
     {
         "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_happy01.png.flat",
@@ -164,6 +168,10 @@
         "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\font\\annie_use_your_telescope.xml"
     },
     {
+        "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\layout_mood2_calm.xml.flat",
+        "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\layout\\mood2_calm.xml"
+    },
+    {
         "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },
@@ -174,6 +182,10 @@
     {
         "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_i_new.png.flat",
         "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\drawable\\i_new.png"
+    },
+    {
+        "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_next.png.flat",
+        "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\drawable\\next.png"
     },
     {
         "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\layout_registered_account.xml.flat",
@@ -192,12 +204,20 @@
         "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\drawable\\happyok.png"
     },
     {
+        "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\layout_mood2_excited.xml.flat",
+        "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\layout\\mood2_excited.xml"
+    },
+    {
         "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_excited.png.flat",
         "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\drawable\\excited.png"
     },
     {
         "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\layout_mood2.xml.flat",
         "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\layout\\mood2.xml"
+    },
+    {
+        "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\layout_mood2_unhappy.xml.flat",
+        "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\layout\\mood2_unhappy.xml"
     },
     {
         "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_i_new.png.flat",
@@ -208,12 +228,12 @@
         "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\drawable\\angryok.png"
     },
     {
-        "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sad.jpg.flat",
-        "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\drawable\\sad.jpg"
-    },
-    {
         "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\layout_mood3_1.xml.flat",
         "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\layout\\mood3_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_redo.png.flat",
+        "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\drawable\\redo.png"
     },
     {
         "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -232,8 +252,8 @@
         "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main1.xml.flat",
-        "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\layout\\activity_main1.xml"
+        "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\layout_registered_account2.xml.flat",
+        "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\layout\\registered_account2.xml"
     },
     {
         "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sad01.png.flat",
@@ -246,10 +266,6 @@
     {
         "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\layout_calender.xml.flat",
-        "source": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\src\\main\\res\\layout\\calender.xml"
     },
     {
         "merged": "C:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_outerage.png.flat",

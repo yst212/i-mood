@@ -1,4 +1,4 @@
-#Tue Jul 07 15:33:56 CST 2020
+#Sun Jul 19 23:33:49 CST 2020
 base.0=C\:\\Users\\kaoas\\Documents\\WeChat Files\\debbie082130\\FileStorage\\File\\2020-05\\MyApplication2\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
